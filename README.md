@@ -14,16 +14,17 @@ Click [here](https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-c
 ## Built with
 * HTML
 * CSS
-* Git, GitHub and GitHub Pages
 
 ## How to use
 1. Clone the repository and change directory.
 
-```
+```bash
 git clone https://github.com/trevoramaco/html-css.tea-cozy-site.git
 ```
 
-2. Open "html-css.tea-cozy-site/index.html" file.
+2. Open `html-css.tea-cozy-site/index.html` file.
+
+![main_site.png](IMAGES/main_site.png)
 
 ## Challenges and Credits
 This was a practice project from the full stack program at Codeacademy.
