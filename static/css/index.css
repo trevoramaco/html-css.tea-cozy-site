@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+h2, h4, h5, h3, p {
+    padding: 10px;
+}
+
+.heading-blackout {
+    background-color: black;
+}
+
+/* Header */
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
+    padding-inline: 10px; /* Logical margin replacement */
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px; /* Spacing between items */
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px; /* Simple and ensures consistent spacing */
+}
+
+/*Our Mission */
+#mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Flexible width */
+    max-width: 1200px; /* Restrict max size */
+    min-height: 700px;
+    margin: 69px auto 0;
+    background-image: url("../images/img-mission-background.jpg");
+    padding: 50px 10px; /* Space inside the section */
+}
+
+/* Tea of the Month */
+#tea_of_month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Default to full width */
+    max-width: 1000px; /* Restrict to design size */
+    margin: 0 auto; /* Center the container */
+}
+
+#tea_of_month div {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center;
+    gap: 10px; /* Add space between rows and columns */
+}
+
+#tea_of_month figure {
+    flex: 0 0 auto; /* Prevent shrinking or growing */
+    width: 300px; /* Fixed size matching the image width */
+    margin: 10px; /* Add space around each figure */
+}
+
+#tea_of_month img {
+    width: 300px; /* Fixed image size */
+    height: 200px; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+/* Locations */
+#locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Default to full width */
+    max-width: 1200px;
+    min-height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    margin: 0 auto; /* Center the container */
+
+}
+
+#locations div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 1;
+}
+
+.specific_location {
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    margin: 15px 20px;
+}
+
+/* Contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    padding-inline: 20px;
+}
+
